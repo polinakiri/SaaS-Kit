@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SaaS Kit</title>
+    <link href="./style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Poppins:wght@500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="sidebar">
+      <div class="box1">
+        <h1>SaaS Kit</h1>
+        <div class="profile-info">
+          <img src="./images/photo.svg" />
+          <span>
+            <strong>Sierra Ferguson</strong> <br />
+            <a href="mailto:s.ferguson@gmail.com">s.ferguson@gmail.com</a>
+          </span>
+        </div>
+        <ul class="navbar-top">
+          <li>
+            <img src="./images/dashboard.svg" />
+            <a class="active" href="#">Dashboard</a>
+          </li>
+          <li><img src="./images/tasks.svg" /> <a href="#">Tasks</a></li>
+          <li><img src="./images/email.svg" /> <a href="#">Email</a></li>
+          <li><img src="./images/contacts.svg" /> <a href="#">Contacts</a></li>
+          <li><img src="./images/chat.svg" /> <a href="#">Chat</a></li>
+          <li><img src="./images/deals.svg" /> <a href="#">Deals</a></li>
+        </ul>
+      </div>
+      <div class="box2">
+        <ul class="navbar-bottom">
+          <li class="settings">
+            <img src="./images/settings.svg" /> <a href="#">Settings</a>
+          </li>
+          <li class="toggle">
+            <img src="./images/togglesidebar.svg" /> Toggle sidebar
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="main-content">
+      <div class="search">
+        <img class="loupe" src="./images/search.svg" />
+        <input type="search" placeholder="Global search" />
+        <img class="notifications" src="./images/notifications.svg" />
+      </div>
+      <div class="working-area">
+        <div class="tasks">
+          <div class="tracker">
+            <span>8 task completed out of 10</span>
+            <div class="options1">
+              <label>Show: </label>
+              <select name="week" id="week">
+                <option value="previous week">Previous week</option>
+                <option value="this week" selected>This week</option>
+                <option value="next week">Next week</option>
+              </select>
+            </div>
+          </div>
+          <div class="progressbar">
+            <div class="progress"></div>
+          </div>
+          <span class="selected-date">23 December, Sunday</span>
+          <div class="calendar">
+            <ul class="week">
+              <li>
+                <div class="weekday">Sun</div>
+                <div class="activedate">23</div>
+              </li>
+              <li>
+                <div class="weekday">Mon</div>
+                <div class="date">24</div>
+              </li>
+              <li>
+                <div class="weekday">Tue</div>
+                <div class="date">25</div>
+              </li>
+              <li>
+                <div class="weekday">Wed</div>
+                <div class="date">26</div>
+              </li>
+              <li>
+                <div class="weekday">Thu</div>
+                <div class="date">27</div>
+              </li>
+              <li>
+                <div class="weekday">Fri</div>
+                <div class="date">28</div>
+              </li>
+              <li>
+                <div class="weekday">Sat</div>
+                <div class="date">29</div>
+              </li>
+            </ul>
+          </div>
+          <div class="to-do-list">
+            <div class="task1">
+              <div class="left">
+                <h3>Send benefit review by Sunday</h3>
+                <span class="deadline"
+                  ><p class="due-date">Due date:</p>
+                  <p>December 23, 2018</p></span
+                >
+                <span class="co-worker"
+                  ><img src="./images/George.svg" /> George Fields</span
+                >
+              </div>
+              <div class="right">
+                <span class="tasktype">Reminder</span>
+                <div class="edit">
+                  <button class="pencil-btn">
+                    <img src="./images/edit-btn.svg" />
+                  </button>
+                  <button class="delete-btn">
+                    <img src="./images/delete-btn.svg" />
+                  </button>
+                  <div class="completed">Completed</div>
+                </div>
+              </div>
+            </div>
+            <div class="task2">
+              <div class="left">
+                <h3>Invite to office meet-up</h3>
+                <span class="deadline"
+                  ><p class="due-date">Due date:</p>
+                  <p>December 23, 2018</p></span
+                >
+                <span class="co-worker"
+                  ><img src="./images/Rebecca.svg" /> Rebecca Moore</span
+                >
+              </div>
+              <div class="right">
+                <span class="tasktype">Call</span>
+                <div class="edit">
+                  <button class="pencil-btn">
+                    <img src="./images/edit-btn.svg" />
+                  </button>
+                  <button class="delete-btn">
+                    <img src="./images/delete-btn.svg" />
+                  </button>
+                  <div class="ended">Ended</div>
+                </div>
+              </div>
+            </div>
+            <div class="task3">
+              <div class="left">
+                <h3>Office meet-up</h3>
+                <div class="deadline">
+                  <p class="due-date">Due date:</p>
+                  <p>December 23, 2018</p>
+                </div>
+                <span class="co-worker"
+                  ><img src="./images/Lindsey.svg" /> Lindsey Stroud</span
+                >
+              </div>
+              <div class="right">
+                <span class="tasktype">Event</span>
+                <div class="edit">
+                  <button class="pencil-btn">
+                    <img src="./images/edit-btn.svg" />
+                  </button>
+                  <button class="delete-btn">
+                    <img src="./images/delete-btn.svg" />
+                  </button>
+                  <div class="completed">Completed</div>
+                </div>
+              </div>
+            </div>
+            <button class="show-more">Show more</button>
+          </div>
+        </div>
+        <div class="charts">
+          <div class="deals-graphic">
+            <div class="header1">
+              <h2>Deals</h2>
+              <div class="time-period-selection">
+                <label>Show: </label>
+                <select name="period" id="period">
+                  <option value="weekly">Weekly</option>
+                  <option value="monthly" selected>Monthly</option>
+                  <option value="yearly">Yearly</option>
+                </select>
+              </div>
+            </div>
+            <div class="graphic1">
+              <ul class="closed-deals">
+                <li class="blue">Closed deals</li>
+              </ul>
+              <img class="graphic-img" src="./images/graphic.svg" />
+            </div>
+          </div>
+          <div class="tasks-chart">
+            <div class="header2">
+              <h2>Tasks</h2>
+              <div class="time-period-selection">
+                <label>Show: </label>
+                <select name="timeperiod" id="timeperiod">
+                  <option value="today">Today</option>
+                  <option value="this-week">This week</option>
+                  <option value="this-month" selected>This month</option>
+                </select>
+              </div>
+            </div>
+            <div class="chart-img">
+              <img src="./images/chart.svg" />
+              <ul class="points">
+                <li class="yellow">Active</li>
+                <li class="green">Completed</li>
+                <li class="red">Ended</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
